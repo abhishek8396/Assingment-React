@@ -1,0 +1,55 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
+
+.form-fill{
+  display: flex;
+  justify-content: space-evenly;
+}
+input[type="text"] {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
